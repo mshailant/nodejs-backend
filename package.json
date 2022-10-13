@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mshailant/nodejs-backend.git"
+  },
+  "author": "Martin Sebastian Hailant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mshailant/nodejs-backend/issues"
+  },
+  "homepage": "https://github.com/mshailant/nodejs-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "sequelize": "^6.25.0"
+  }
+}
